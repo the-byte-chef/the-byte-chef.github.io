@@ -1,0 +1,12 @@
+title: ByteChef
+description: Cybersecurity | AI/ML Security | Penetration Testing
+url: "https://the-byte-chef.github.io"
+author: ByteChef
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .DS_Store

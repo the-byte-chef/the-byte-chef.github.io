@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | ByteChef{% else %}ByteChef{% endif %}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="/" class="brand">Byte<span>Chef</span></a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/ctf/">CTF</a></li>
+    <li><a href="/thm/">THM</a></li>
+    <li><a href="https://github.com/the-byte-chef" target="_blank">GitHub</a></li>
+  </ul>
+</nav>
+
+{{ content }}
+
+<footer>
+  ByteChef &mdash;
+  <a href="https://github.com/the-byte-chef">GitHub</a> &middot;
+  <a href="https://tryhackme.com/p/ByteChef">TryHackMe</a> &middot;
+  <a href="https://linkedin.com/in/josephkushner">LinkedIn</a>
+</footer>
+
+</body>
+</html>
