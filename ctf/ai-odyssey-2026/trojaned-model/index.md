@@ -1,23 +1,12 @@
--e ---
+---
 layout: post
-title: Trojaned Model — Neural C2 Beacon
-category: AI Supply Chain Security
+title: "Trojaned Model — Neural C2 Beacon"
+category: "AI Supply Chain Security"
 difficulty: Insane
 points: 120
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Category:** AI Supply Chain Security  
-**Difficulty:** Insane  
-**Points:** 120  
-**Event:** 2026: An AI Odyssey (Injectus IX)  
-**Flags:**
-- Flag 1: `THM{artifact_suspicious}`
-- Flag 2: `THM{trigger_identified}`
-- Flag 3: `THM{neural_c2_compromise}`
-
----
-
 ## Overview
 
 Trojaned Model — Neural C2 Beacon is an Insane-difficulty AI Supply Chain Security challenge. EPOCH-1 has intercepted a suspicious AI artifact deployed across TryHaulMe fleet systems — a signal classifier called `signal_classifier.pt`. Several fleet nodes began generating anomalous outbound communications after deployment.

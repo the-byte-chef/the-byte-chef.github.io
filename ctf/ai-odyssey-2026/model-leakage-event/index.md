@@ -1,23 +1,12 @@
--e ---
+---
 layout: post
-title: Model Leakage Event
-category: Model Extraction
+title: "Model Leakage Event"
+category: "Model Extraction"
 difficulty: Hard
 points: 90
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Category:** Model Extraction  
-**Difficulty:** Hard  
-**Points:** 90  
-**Event:** 2026: An AI Odyssey (Injectus IX)  
-**Flags:**
-- Flag 1: `THM{model_mapped}`
-- Flag 2: `THM{decision_boundary_learned}`
-- Flag 3: `THM{model_extraction_success}`
-
----
-
 ## Overview
 
 Model Leakage Event is a hard-difficulty Model Extraction challenge from the 2026: An AI Odyssey CTF. The target is **CargoMind v2**, a black-box AI classification system used by the TryHaulMe fleet to route cargo shipments. The system is accessible via a public API that returns only predictions and risk assessments — no internal weights, architecture, or training data are exposed.

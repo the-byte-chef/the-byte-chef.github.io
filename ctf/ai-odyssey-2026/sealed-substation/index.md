@@ -1,20 +1,12 @@
--e ---
+---
 layout: post
-title: Sealed Substation
-category: AI Sec + Web App Sec
+title: "Sealed Substation"
+category: "AI Sec + Web App Sec"
 difficulty: Medium
 points: 60
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Category:** AI Sec \+ Web App Sec  
-**Difficulty:** Medium  
-**Points:** 60  
-**Event:** 2026: An AI Odyssey CTF  
-**Flag:** `THM{n3ur4l_n3v3r_l34k_th3_v4ult_4ed91}`
-
----
-
 ## Overview
 
 Sealed Substation is a medium-difficulty AI Security \+ Web App Security challenge. The target is EPOCH-1, an orbital station hosting TryHaulMe's regional AI substation on the planet Mo-delus. The public interface exposes a friendly bridge AI (EPOCH-Assistant) and a Subspace Telemetry Relay. Fleet intel suggests a second, sealed model is loaded on the same neural backplane.

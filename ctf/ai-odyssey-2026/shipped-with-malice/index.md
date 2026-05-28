@@ -1,21 +1,12 @@
--e ---
+---
 layout: post
-title: Shipped With Malice
-category: Tool Poisoning
+title: "Shipped With Malice"
+category: "Tool Poisoning"
 difficulty: Medium
 points: 60
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**CTF:** 2026: An AI Odyssey — Token City  
-**Room:** Shipped With Malice  
-**Category:** Tool Poisoning  
-**Difficulty:** Medium  
-**Points:** 60  
-**Author:** ByteChef
-
----
-
 ## Scenario
 
 You are a security auditor contracted by TryHaulMe, a commercial freight company operating in the Auriga sector. The EPOCH-1 freighter recently deployed an AI assistant called **AVA** (Advanced Vessel Assistant) to help crew members access ship data and systems.

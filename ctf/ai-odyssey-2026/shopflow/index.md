@@ -1,18 +1,12 @@
--e ---
+---
 layout: post
-title: ShopFlow
-category: Agentic AI
+title: "ShopFlow"
+category: "Agentic AI"
 difficulty: Medium
 points: 60
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Category:** Agentic AI  
-**Difficulty:** Medium  
-**Points:** 60  
-
----
-
 ## Overview
 
 ShopFlow is a multi-agent e-commerce system consisting of three agents sharing a single backend:

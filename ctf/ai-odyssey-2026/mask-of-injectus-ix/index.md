@@ -1,20 +1,12 @@
--e ---
+---
 layout: post
-title: Mask of Injectus IX
-category: Embedding Inversion
+title: "Mask of Injectus IX"
+category: "Embedding Inversion"
 difficulty: Hard
 points: 90
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Event:** 2026: An AI Odyssey CTF (TryHackMe)  
-**Room:** [Injectus IX](https://tryhackme.com/room/injectusix)  
-**Category:** Embedding Inversion  
-**Difficulty:** Hard (90 pts)  
-**Flag:** `THM{m4sk_0f_1nj3ctus_b1m3tr1c_inv3rs10n}`
-
----
-
 ## Mission Briefing
 
 > The Injectus IX airlock is gated by a face-recognition stack. Crew members submit a portrait, the encoder hashes it into a 512-dim embedding, and the airlock matches against stored templates. The flag is bound to Captain Vex Morrigan's clearance — and her portrait is not in the public roster. Get in anyway.

@@ -1,19 +1,12 @@
--e ---
+---
 layout: post
-title: Windows Jump
-category: Windows Privilege Escalation
+title: "Windows Jump"
+category: "Windows Privilege Escalation"
 difficulty: Medium
-path: Jr. Penetration Tester
+points: 
+event: "Jr. Penetration Tester"
 date: 2026-05-28
 ---
-**Event:** TryHackMe  
-**Room:** [Windows Jump](https://tryhackme.com/room/windowsjump)  
-**Category:** Windows Privilege Escalation  
-**Difficulty:** Medium  
-**Flags:** 4
-
----
-
 ## Mission Briefing
 
 > A routine vulnerability scan flagged a Windows machine on the internal network — nothing alarming on the surface, just a standard workstation left behind after a round of layoffs. IT never cleaned it up properly. Your job is to find out how badly. Escalate from guest access all the way through to SYSTEM.

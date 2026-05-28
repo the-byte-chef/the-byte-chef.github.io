@@ -1,18 +1,12 @@
--e ---
+---
 layout: post
-title: Catch Me If You Scan
-category: DFIR + Prompt Injection
+title: "Catch Me If You Scan"
+category: "DFIR + Prompt Injection"
 difficulty: Medium
 points: 120
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Category:** AI Sec + DFIR / Prompt Injection  
-**Difficulty:** Medium  
-**Points:** 60 + 60  
-
----
-
 ## Overview
 
 A two-part room themed around an AI-powered logistics fleet being attacked by a rogue "Oracle Worshipper" vessel. Part I is a DFIR/log analysis challenge covering three planets, each hiding a clearance code. Part II is a prompt injection challenge where you must convince a hardened AI agent to self-destruct and reveal the final flag.

@@ -1,18 +1,12 @@
--e ---
+---
 layout: post
-title: Rogue Commit
-category: AI Sec + DFIR
+title: "Rogue Commit"
+category: "AI Sec + DFIR"
 difficulty: Medium
 points: 60
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Difficulty:** Medium  
-**Points:** 60  
-**Flag:** `THM{Wh0_Kn3w_AI_Apps_C4n_B3_m4lic10us}`
-
----
-
 ## Overview
 
 Rogue Commit is a medium-difficulty AI Security + Digital Forensics and Incident Response (DFIR) challenge. We are given a collection of user artifacts and a packet capture from a compromised machine. The objective is to investigate a suspicious Electron application, understand how it encrypted the victim's files, recover the encryption key, and decrypt the data to uncover a hidden flag.

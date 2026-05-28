@@ -1,19 +1,12 @@
--e ---
+---
 layout: post
-title: The Loan Arranger
-category: ML Security
+title: "The Loan Arranger"
+category: "ML Security"
 difficulty: Medium
 points: 60
-event: 2026 An AI Odyssey
+event: "2026: An AI Odyssey"
 date: 2026-05-28
 ---
-**Difficulty:** Medium  
-**Points:** 60  
-**Event:** 2026: An AI Odyssey CTF  
-**Flag:** `THM{f34tur3_st0r3_n4m3sp4c3_c0ll1s10n}`
-
----
-
 ## Overview
 
 The Loan Arranger is a medium-difficulty ML Security challenge set in the fictional CortexLend platform — an AI-powered loan approval portal backed by a GradientBoosting machine learning model. The objective was to obtain a fraudulent loan approval by exploiting a vulnerability in the ML pipeline.
