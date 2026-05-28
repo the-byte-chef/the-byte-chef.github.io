@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="post-wrap">
   <div class="post-head">
-    <div class="card-tags">
+    <a href="javascript:history.back()" class="back-link">← Back</a>
+    <div class="card-tags" style="margin-top:1rem;">
       {% if page.difficulty %}<span class="tag tag-{{ page.difficulty | downcase }}">{{ page.difficulty }}</span>{% endif %}
       {% if page.category %}<span class="tag tag-cat">{{ page.category }}</span>{% endif %}
       {% if page.points %}<span class="tag tag-cat">{{ page.points }} pts</span>{% endif %}
@@ -18,3 +19,25 @@ layout: default
     {{ content }}
   </div>
 </div>
+
+<script>
+document.querySelectorAll('.post-body pre').forEach(function(pre) {
+  const btn = document.createElement('button');
+  btn.className = 'copy-btn';
+  btn.textContent = 'copy';
+  pre.style.position = 'relative';
+  pre.appendChild(btn);
+
+  btn.addEventListener('click', function() {
+    const code = pre.querySelector('code') ? pre.querySelector('code').innerText : pre.innerText;
+    navigator.clipboard.writeText(code).then(function() {
+      btn.textContent = 'copied!';
+      btn.classList.add('copied');
+      setTimeout(function() {
+        btn.textContent = 'copy';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  });
+});
+</script>
